@@ -1,17 +1,28 @@
 /***** 
 COLOR CHEAT SHEET 
+https://coolors.co/palette/100C08-283618-fefae0-4A412A-FF8000
 
-
-*****/
+100C08 - Smokey Black
+283618 - brown
+fefae0 - cream
+4A412A - Dark Brown
+FF8000 - orange (wheeL)
 
 
 /********************/
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Gloria Hallelujah", cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+        font-family: "Permanent Marker", cursive;
+}      
+      
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url(../img/Hero.jpg);
 }

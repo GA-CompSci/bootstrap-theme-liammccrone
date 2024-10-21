@@ -1,12 +1,12 @@
 /***** 
 COLOR CHEAT SHEET 
-https://coolors.co/palette/100C08-283618-fefae0-4A412A-FF8000
+https://coolors.co/palette/100C08-FE5A1D-fefae0-3a3322-e37507
 
-100C08 - Smokey Black
-283618 - brown
-fefae0 - cream
-4A412A - Dark Brown
-FF8000 - orange (wheeL)
+#100C08 - Smokey Black
+#FE5A1D - Giants orange - main
+#fefae0 - cream
+#3a3322 - Dark Brown
+#e37507 - orange (wheeL)
 
 
 /********************/
@@ -16,7 +16,8 @@ body, p {
     font-family: "Gloria Hallelujah", cursive;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
+.h1, .h2, .h3, .h4, .h5, .h6 {
         font-family: "Permanent Marker", cursive;
 }      
       
@@ -26,3 +27,98 @@ h1, h2, h3, h4, h5, h6 {
 header.masthead{
     background: url(../img/Hero.jpg);
 }
+
+.btn-primary{
+    background-color: #FE5A1D;
+    border: 2px solid #100C08;
+    color: white;
+}   
+
+.btn-primary:hover{
+    background-color: #3a3322;
+    border: 2px solid white;
+}
+
+/***************************/
+/******* BODY COLORS ******/
+/*************************/
+
+hr.divider{
+    background-color: #100C08;
+}
+a.navbar-brand{
+    color:#100C08 !important;
+    text-shadow:#FE5A1D 2px 2px 2px;
+    font size: 35px;
+}
+
+header.masthead h1{
+    color:#100C08 !important;
+    text-shadow:#FE5A1D 3px 3px 3px ;
+}
+
+header.masthead p{
+    color:#100C08;
+    font-weight: 800px;
+    font-size: 25px;
+    text-shadow:3px 3px 3px #FE5A1D;
+}
+
+section.bg-primary{
+    background-color: #FE5A1D !important;
+}
+
+.btn-light{
+    background-color:#3a3322 !important;
+    border: 2px solid white;
+    color: white ;
+}
+
+.btn-light:hover{
+    background-color: white !important;
+    border: 2px solid #100C08;
+}
+
+.text-primary{
+    color:#FE5A1D;
+}
+
+/********************/
+/******* NAVBAR ******/
+/********************/
+
+#mainNav.navbar-shrink {
+    background-color:#3a3322;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+ color:white ;
+ text-shadow:
+    -1px -1px 0 #e37507,
+    1px -1px 0  #e37507,
+    -1px 1px 0 #e37507,
+    1px 1px 0 #e37507;
+font-weight: 300;
+font-size: 20px !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: "Permanent Marker", cursive;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #100C08 !important;
+}
+
+#mainNav .navbar-brand {
+    font-family: "Permanent Marker", cursive;
+}
+
+#mainNav .navbar-brand {
+    color: white !important;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: white !important;
+}
+
